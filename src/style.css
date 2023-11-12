@@ -1,0 +1,52 @@
+body {
+    display: flex; /* Добавлено свойство flex для центрирования дочерних элементов */
+    align-items: center; /* Выравнивание по вертикали по центру */
+    justify-content: center; /* Выравнивание по горизонтали по центру */
+    margin: 0;
+    background-color: rgb(245, 199, 247);
+}
+
+h2 {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 86px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#output {
+    display: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(240, 217, 217);
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 10px;
+    padding: 6px;
+}
+
+
+.btn {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn1 {
+    width: 150px;
+    height: 50px;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgb(59, 57, 57);
+    border-color: rgb(0, 0, 0);
+}
+
+.btn1:hover {
+    background-color: rgb(80, 80, 156);
+    color: rgb(255, 255, 255);
+}
