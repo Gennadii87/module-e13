@@ -20,24 +20,6 @@ document.addEventListener('DOMContentLoaded', function () {
     toggleOutput();
 });
 
-// document.addEventListener('DOMContentLoaded', function () {
-//     const outputElement = document.getElementById('output_json'); 
-//     const fetchDataButton = document.getElementById('fetchDataButton');
-
-//     fetchDataButton.addEventListener('click', function () {
-//         // fetch для получения данных из JSON-сервера
-//         fetch('http://localhost:3000/contacts') 
-//             .then(response => response.json())
-//             .then(data => {
-//                 // После успешного получения данных
-//                 outputElement.textContent = JSON.stringify(data, null, 2);
-//             })
-//             .catch(error => {
-//                 console.error('Ошибка при получении данных:', error);
-//                 outputElement.textContent = 'Произошла ошибка при получении данных.';
-//             });
-//     });
-// });
 document.addEventListener('DOMContentLoaded', function () {
     const outputElement = document.getElementById('output_json');
     const fetchDataButton = document.getElementById('fetchDataButton');
