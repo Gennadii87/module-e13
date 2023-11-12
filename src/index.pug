@@ -4,9 +4,15 @@ html(lang='en')
     meta(charset='UTF-8')
     meta(name='viewport' content='width=device-width, initial-scale=1.0')
     title Document
+    link(rel='stylesheet' type='text/css' href='./dist/main.css')
+    script(src='./dist/main.js')
   body
     div
       h2 Тут код javascript
       span#output
       .btn
         button.btn1(onclick='toggleOutput()') Посмотреть код
+      .json-text Тут код json-server
+      ul#output_json
+      .btn
+        button#fetchDataButton.btn1 Получить данные

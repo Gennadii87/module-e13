@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./dist/main.css">
+    <script src="./dist/main.js"></script>
   <script defer src="../main.js"></script><link href="../main.css" rel="stylesheet"></head>
   <body>
     <div>
       <h2>Тут код javascript</h2><span id="output"></span>
       <div class="btn">
         <button class="btn1" onclick="toggleOutput()">Посмотреть код</button>
+      </div>
+      <div class="json-text">Тут код json-server</div>
+      <ul id="output_json"></ul>
+      <div class="btn">
+        <button class="btn1" id="fetchDataButton">Получить данные</button>
       </div>
     </div>
   </body>
